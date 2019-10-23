@@ -14,42 +14,42 @@ do{
 
 
 	switch(semana) {
-   	case 1: 
-    		cuestionario += "Introducción a la programación";
-		tema = "Seleccionado: Introduccion a la programación";
+   	case 1:
+    		cuestionario += "Introduccion a la programacion";
+		tema = "Seleccionado: Introduccion a la programacion";
 		System.out.println(tema);
     	break;
-   	case 2: 
-    		cuestionario += "Secuenciación y selección";
-		tema = "Seleccionado: Secuenciación y selección";
+   	case 2:
+    		cuestionario += "Secuenciacion y seleccion";
+		tema = "Seleccionado: Secuenciacion y seleccion";
 		System.out.println(tema);
 
     	break;
-   	case 3:  
+   	case 3:
     		cuestionario += "DO...WHILE";
 		tema = "Seleccionado: DO...WHILE";
 		System.out.println(tema);
 
     	break;
-   	case 4:  
+   	case 4:
     		cuestionario += "FOR";
 		tema  = "Seleccionado: FOR";
 		System.out.println(tema);
 
     	break;
-   	case 5:  
+   	case 5:
     		cuestionario += "WHILE";
 		tema = "Seleccionado: WHILE";
 		System.out.println(tema);
 
     	break;
-   	case 6:  
-    		cuestionario += "Series numéricas";
-		tema = "Seleccionado: Series numéricas";
+   	case 6:
+    		cuestionario += "Series numericas";
+		tema = "Seleccionado: Series numericas";
 		System.out.println(tema);
 
     	break;
-   	case 7 : case 8:  
+   	case 7 : case 8:
     		cuestionario += "Tarea";
 		tema = "Seleccionado: Tarea";
 		System.out.println(tema);
@@ -61,12 +61,11 @@ do{
 		{
 			System.out.println(cuestionario);
 		}else{
-	 	
-			System.out.println("Opcion: " + semana + " Erronea ..saliendo..");	
+
+			System.out.println("Opcion: " + semana + " Erronea ..saliendo..");
 		}
 }while( semana <= 8 && semana >=1);
 
   }
 
 }
-
